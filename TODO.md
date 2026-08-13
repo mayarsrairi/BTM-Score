@@ -1,1 +1,0 @@
-# TODO: Corriger erreurs dans BTM et AT.ipynb\n\n- [ ] Étape 1: Créer dict indices_info et calculer tous les indices en un bloc.\n- [ ] Étape 2: Implémenter boucle d'évaluation unifiée.\n- [ ] Étape 3: Ajouter tableau récapitulatif des résultats.\n- [ ] Étape 4: Nettoyer code redondant.\n- [ ] Étape 5: Vérifier exécution sans erreurs.\n- [ ] Complété !
