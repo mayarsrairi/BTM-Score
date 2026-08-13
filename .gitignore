@@ -1,0 +1,12 @@
+# Donnees patients - ne jamais committer (confidentialite / pas d'autorisation de partage public)
+data/*.xlsx
+data/*.xls
+data/*.csv
+
+# Environnement Python
+.venv/
+__pycache__/
+*.pyc
+
+# Checkpoints Jupyter
+.ipynb_checkpoints/
