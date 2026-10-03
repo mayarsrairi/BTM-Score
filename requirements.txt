@@ -1,0 +1,20 @@
+# Exact versions used to produce the results reported in the manuscript
+# (Python 3.13.14). Pinned with == for reproducibility.
+numpy==2.4.6
+scipy==1.18.0
+pandas==3.0.5
+matplotlib==3.11.1
+seaborn==0.13.2
+scikit-learn==1.9.0
+xgboost==3.3.0
+shap==0.52.0
+statsmodels==0.14.6
+openpyxl==3.1.5
+joblib==1.5.3
+threadpoolctl==3.6.0
+tabulate==0.10.0
+
+# To execute the notebook non-interactively (jupyter nbconvert --execute):
+ipykernel==7.3.0
+nbconvert==7.17.1
+nbformat==5.10.4

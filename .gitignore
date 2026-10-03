@@ -1,0 +1,22 @@
+# Patient-level data: never commit (confidentiality; no permission for public sharing)
+data/*.xlsx
+data/*.xls
+data/*.csv
+
+# Python environment
+.venv/
+__pycache__/
+*.pyc
+
+# Jupyter checkpoints
+.ipynb_checkpoints/
+
+# Local execution logs (diagnostics, never shared)
+_exec_log.txt
+_progress.log
+
+# Computation cache (contains PER-PATIENT predictions) and dry-run outputs: never commit
+cache/
+cache_smoke/
+results_smoke/
+_smoke_log.txt

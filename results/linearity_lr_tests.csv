@@ -1,0 +1,5 @@
+Variable,Test,LR chi2,df,p
+MCHC,"non-linearity (restricted cubic spline, 3 knots)",0.019365066339929626,1,0.8893249633996414
+RDW-SD,"non-linearity (restricted cubic spline, 3 knots)",3.815175046087603,1,0.05079029784204891
+RET absolute,"non-linearity (restricted cubic spline, 3 knots)",1.6005480169965622,1,0.20582556602832847
+all three jointly,non-linearity (restricted cubic splines),5.594505374487028,3,0.13309415482330061

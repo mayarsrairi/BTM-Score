@@ -1,0 +1,14 @@
+Analysis,Section,Patients,BTM events,Note
+"Whole cohort (descriptive tables, final formula, DeLong, calibration, decision curves)","2-4, 10, 13",330,60,all 330 patients; missing values median-imputed inside each training fold (final formula: whole-cohort median)
+"Monte Carlo, training fold","8.2, 12",231,42,1000 stratified 70/30 splits; median per split
+"Monte Carlo, test fold (all methods on the same patients)","8.2, 12",99,18,"13 indices, XGBoost, ENLR, BTM score evaluated on identical test folds; median per split"
+"Harrell bootstrap, each resample","11, 12",330,60,500 resamples of 330 patients drawn with replacement (about 60 BTM on average); tested on the original cohort
+"Repeated 10-fold CV, training fold",13,297,54,200 models fitted
+"Repeated 10-fold CV, test fold",13,33,6,"mean per fold; pooled over the 10 folds every patient is predicted once per repetition (330 patients, 60 BTM)"
+"No-imputation sensitivity analysis (complete cases, 20 variables)",14.4,320,60,no value imputed anywhere
+Linearity diagnostics (3 variables of the score),14.2,330,60,whole cohort (RDW-SD median-imputed for 8 patients)
+Riley et al. sample-size criteria,13.5,330,60,20 candidate predictors; EPV = 3.00
+Subgroup: Sex: female,14.1,276,47,"out-of-fold predictions of the repeated CV, patients of this subgroup only"
+Subgroup: Sex: male,14.1,54,13,"out-of-fold predictions of the repeated CV, patients of this subgroup only"
+Subgroup: Age < 45 years,14.1,185,26,"out-of-fold predictions of the repeated CV, patients of this subgroup only"
+Subgroup: Age >= 45 years,14.1,145,34,"out-of-fold predictions of the repeated CV, patients of this subgroup only"

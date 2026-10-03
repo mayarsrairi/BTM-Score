@@ -1,0 +1,29 @@
+cff-version: 1.2.0
+message: "If you use this software or the BTM score, please cite it using the metadata below."
+title: "BTM Score: development and internal validation of a diagnostic score for beta-thalassemia minor versus iron deficiency anemia"
+version: 1.0.0
+date-released: 2026-10-03
+license: MIT
+repository-code: "https://github.com/mayarsrairi/BTM-Score"
+authors:
+  - family-names: Srairi
+    given-names: Mayar
+    orcid: "https://orcid.org/0009-0003-4246-9886"
+  - family-names: Chakroun
+    given-names: Aya
+    orcid: "https://orcid.org/0000-0003-4925-0353"
+  - family-names: Eddhib
+    given-names: Jannet
+  - family-names: Baccouche
+    given-names: Hela
+    orcid: "https://orcid.org/0000-0002-6995-2435"
+  - family-names: Mahjoub
+    given-names: Sonia
+    orcid: "https://orcid.org/0000-0002-9645-4597"
+keywords:
+  - beta-thalassemia minor
+  - iron deficiency anemia
+  - diagnostic score
+  - complete blood count
+  - elastic net
+  - internal validation
