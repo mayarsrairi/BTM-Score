@@ -1,5 +1,7 @@
 # BTM Score — iron deficiency anemia vs. beta-thalassemia minor
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.23127874.svg)](https://doi.org/10.5281/zenodo.23127874)
+
 This repository contains the complete analysis pipeline used to develop and internally validate the
 **BTM score**, a three-variable logistic-regression score that differentiates iron deficiency anemia (IDA)
 from beta-thalassemia minor (BTM) using complete blood count (CBC) parameters.
@@ -103,8 +105,11 @@ Released under the [MIT License](LICENSE).
 ## How to cite
 
 Please cite this repository using [`CITATION.cff`](CITATION.cff) (GitHub shows a "Cite this repository" button).
-A Zenodo DOI will be added here after the release.
+The archived releases are on Zenodo:
+
+- **Version DOI (v1.0.0):** [10.5281/zenodo.23127874](https://doi.org/10.5281/zenodo.23127874) — cite this one to refer to the exact version described in the manuscript.
+- **Concept DOI (all versions):** [10.5281/zenodo.23127873](https://doi.org/10.5281/zenodo.23127873) — always resolves to the latest version.
 
 Srairi M, Chakroun A, Eddhib J, Baccouche H, Mahjoub S. *BTM Score: development and internal validation of a
-diagnostic score for beta-thalassemia minor versus iron deficiency anemia* (version 1.0.0). 2026.
-https://github.com/mayarsrairi/BTM-Score
+diagnostic score for beta-thalassemia minor versus iron deficiency anemia* (version 1.0.0). 2026. Zenodo.
+https://doi.org/10.5281/zenodo.23127874 (repository: https://github.com/mayarsrairi/BTM-Score)
