@@ -1,9 +1,9 @@
 cff-version: 1.2.0
 message: "If you use this software or the BTM score, please cite it using the metadata below."
-title: "BTM Score: development and internal validation of a diagnostic score for beta-thalassemia minor versus iron deficiency anemia"
-version: 1.0.0
-doi: 10.5281/zenodo.23127874
-date-released: 2026-10-03
+title: "Beta-Thalassemia Minor Score: Development and Internal Validation of a Discriminative Score for Distinguishing Beta-Thalassemia Minor from Iron Deficiency Anemia"
+version: 1.0.1
+doi: 10.5281/zenodo.23127873
+date-released: 2026-10-04
 license: MIT
 repository-code: "https://github.com/mayarsrairi/BTM-Score"
 authors:

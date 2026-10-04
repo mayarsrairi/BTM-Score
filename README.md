@@ -1,6 +1,6 @@
-# BTM Score — iron deficiency anemia vs. beta-thalassemia minor
+# Beta-Thalassemia Minor Score: Development and Internal Validation of a Discriminative Score for Distinguishing Beta-Thalassemia Minor from Iron Deficiency Anemia
 
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.23127874.svg)](https://doi.org/10.5281/zenodo.23127874)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.23127873.svg)](https://doi.org/10.5281/zenodo.23127873)
 
 This repository contains the complete analysis pipeline used to develop and internally validate the
 **BTM score**, a three-variable logistic-regression score that differentiates iron deficiency anemia (IDA)
@@ -34,7 +34,7 @@ calculator lists both rows, which have the same value). In the Monte Carlo valid
 the 95%-sensitivity rule is 0.921 (0.910 for the Youden rule).
 
 Entering other units gives a wrong probability. Raw reticulocyte counts stored in cells/µL must be divided by
-1,000 first. A universal version using only MCHC, MCV and RBC (any analyser) is reported as a supplementary
+1,000 first. A universal version based on MCHC, MCV and RBC (uses only parameters available on all analysers; not validated on other platforms) is reported as a supplementary
 analysis; see [`results_summary.md`](results_summary.md).
 
 **Excel calculator:** [`results/BTM_score_calculator.xlsx`](results/BTM_score_calculator.xlsx) — enter the three
@@ -44,7 +44,7 @@ values in the yellow cells; it returns z, P(BTM) and the classification, and sta
 
 Numbering follows the manuscript (Figure 1, the participant flow, is drawn separately).
 
-**Figure 2 — calibration (repeated 10-fold cross-validation)**
+**Figure 2 — calibration (repeated 10-fold cross-validation: one LOWESS curve per repetition, their median, and the distribution of the predicted probabilities, pooled across the 20 repetitions of the same 330 patients)**
 
 ![Figure 2: calibration](results/figures/fig_calibration.png)
 
@@ -107,9 +107,8 @@ Released under the [MIT License](LICENSE).
 Please cite this repository using [`CITATION.cff`](CITATION.cff) (GitHub shows a "Cite this repository" button).
 The archived releases are on Zenodo:
 
-- **Version DOI (v1.0.0):** [10.5281/zenodo.23127874](https://doi.org/10.5281/zenodo.23127874) — cite this one to refer to the exact version described in the manuscript.
-- **Concept DOI (all versions):** [10.5281/zenodo.23127873](https://doi.org/10.5281/zenodo.23127873) — always resolves to the latest version.
+- **Concept DOI (all versions):** [10.5281/zenodo.23127873](https://doi.org/10.5281/zenodo.23127873) — always resolves to the latest version; the DOI of each version is listed on its Zenodo page.
+- **Version DOI (v1.0.0, first release):** [10.5281/zenodo.23127874](https://doi.org/10.5281/zenodo.23127874).
 
-Srairi M, Chakroun A, Eddhib J, Baccouche H, Mahjoub S. *BTM Score: development and internal validation of a
-diagnostic score for beta-thalassemia minor versus iron deficiency anemia* (version 1.0.0). 2026. Zenodo.
-https://doi.org/10.5281/zenodo.23127874 (repository: https://github.com/mayarsrairi/BTM-Score)
+Srairi M, Chakroun A, Eddhib J, Baccouche H, Mahjoub S. *Beta-Thalassemia Minor Score: Development and Internal Validation of a Discriminative Score for Distinguishing Beta-Thalassemia Minor from Iron Deficiency Anemia* (version 1.0.1). 2026. Zenodo.
+https://doi.org/10.5281/zenodo.23127873 (repository: https://github.com/mayarsrairi/BTM-Score)
