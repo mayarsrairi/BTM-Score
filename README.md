@@ -108,7 +108,8 @@ Please cite this repository using [`CITATION.cff`](CITATION.cff) (GitHub shows a
 The archived releases are on Zenodo:
 
 - **Concept DOI (all versions):** [10.5281/zenodo.23127873](https://doi.org/10.5281/zenodo.23127873) — always resolves to the latest version; the DOI of each version is listed on its Zenodo page.
+- **Version DOI (v1.0.1, current release):** [10.5281/zenodo.23134741](https://doi.org/10.5281/zenodo.23134741) — cite this one to refer to the exact version described in the manuscript.
 - **Version DOI (v1.0.0, first release):** [10.5281/zenodo.23127874](https://doi.org/10.5281/zenodo.23127874).
 
 Srairi M, Chakroun A, Eddhib J, Baccouche H, Mahjoub S. *Beta-Thalassemia Minor Score: Development and Internal Validation of a Discriminative Score for Distinguishing Beta-Thalassemia Minor from Iron Deficiency Anemia* (version 1.0.1). 2026. Zenodo.
-https://doi.org/10.5281/zenodo.23127873 (repository: https://github.com/mayarsrairi/BTM-Score)
+https://doi.org/10.5281/zenodo.23134741 (repository: https://github.com/mayarsrairi/BTM-Score)
